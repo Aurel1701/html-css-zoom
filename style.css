@@ -7,12 +7,13 @@
     --sfondo-main: rgba(0, 0, 0, 1);
     --sfondo-footer:rgba(34, 34, 34, 1);
     --colore-testo:rgba(255, 255, 255, 1);
+    
    
   }
   main{
       background-color: var(--sfondo-main);
       width: 100vw;
-      height: 900px;
+      height: 980px;
   }
   footer{
       height: 100px;
@@ -22,6 +23,7 @@
   .contain{
       color: var(--colore-testo);
       height: 40px;
+      margin-bottom: 50px;
 
   }
   .speaker{
@@ -43,4 +45,32 @@
       display: flex;
       justify-content: flex-end;
       align-items: center;
+  }
+  .Display-view{
+      display: flex;
+      justify-content: center;
+      
+  }
+  .text-img{
+      color: var(--colore-testo);
+      background-color: rgba(96, 109, 119, 1);
+      padding: 5px;
+      width: 130px;
+      position:absolute;
+      bottom: 4px;
+      left: 0;
+      opacity: 0.8;
+  }
+  .contain-img{
+      max-width: 250px;
+      position: relative;
+      margin-left: 5px;
+      margin-bottom: 10px;
+  }
+  img{
+      width: 180px;
+      height: 160px;
+      object-fit: cover;
+      
+
   }
