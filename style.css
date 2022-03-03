@@ -7,18 +7,21 @@
     --sfondo-main: rgba(0, 0, 0, 1);
     --sfondo-footer:rgba(34, 34, 34, 1);
     --colore-testo:rgba(255, 255, 255, 1);
-    
-   
   }
+ 
+
   main{
       background-color: var(--sfondo-main);
       width: 100vw;
       height: 980px;
   }
   footer{
-      height: 100px;
+      height: 85px;
       width: 100vw;
       background-color: var(--sfondo-footer);
+      display: flex;
+      justify-content: space-between;
+      
   }
   .contain{
       color: var(--colore-testo);
@@ -32,6 +35,18 @@
     background-color:rgba(74, 74, 74, 1);
     width: 120px;
 
+  }
+  .speaker-active{
+      color: var(--colore-testo);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-flow: column;
+         
+
+  }
+  .fa-microphone{
+      font-size: 30px;
   }
   .arrows{
       padding: 5px;
@@ -72,5 +87,73 @@
       height: 160px;
       object-fit: cover;
       
+}
+.mute{
+    margin-top: 5px;
 
-  }
+}
+.contain-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90px;
+    height: 80px;
+
+}
+.fa-angle-up{
+    color: var(--colore-testo);
+}
+.fa-video{
+    font-size: 30px;
+
+}
+.fa-user-plus{
+    font-size: 30px;
+
+}
+.section-left, .section-center, .section-right{
+    display: flex;
+}
+
+.section-right{
+    width: 150px;
+    background-color: rgba(74, 74, 74, 1);
+}
+.meeting{
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+
+}
+.fa-user-group{
+    font-size: 30px;
+}
+.fa-chart-column{
+    font-size: 30px;
+}
+.fa-share-from-square{
+    font-size: 30px;
+}
+.fa-comment{
+
+    font-size: 30px;
+}
+.fa-record-vinyl{
+    font-size: 30px;
+}
+.fa-table-cells-large{
+    font-size: 30px;
+}
+.fa-plus{
+    font-size: 30px;
+
+}
+.green{
+color:green;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-flow: column;
+}
